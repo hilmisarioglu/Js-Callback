@@ -60,3 +60,10 @@ const words = [
 ]
  const result = words.filter((element) => element.length > 6);
  console.log(result)
+
+//  -------------------------------------------
+
+array3 = [1,2,3,4,5];
+
+const reducerArray = array3.reduce()
+ console.log(reducerArray)
