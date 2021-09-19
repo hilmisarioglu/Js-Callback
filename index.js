@@ -63,7 +63,7 @@ const words = [
 
 //  -------------------------------------------
 
-const array3 = [1,2,3,4,5,6];
+const array3 = [1,2,3,4,5,6,7];
 const myFunk = (previousValue, currentValue) => previousValue + currentValue;
 console.log(array3.reduce(myFunk));
 
