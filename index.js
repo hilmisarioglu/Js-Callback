@@ -63,7 +63,14 @@ const words = [
 
 //  -------------------------------------------
 
-array3 = [1,2,3,4,5];
+const array3 = [1,2,3,4,5,6];
+const myFunk = (previousValue, currentValue) => previousValue + currentValue;
+console.log(array3.reduce(myFunk));
 
-const reducerArray = array3.reduce()
- console.log(reducerArray)
+// --------------------------------------------
+for (const key in object) {
+    if (Object.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+        
+    }
+}
